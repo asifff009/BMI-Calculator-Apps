@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/custom_style_home"
+    >
+
+
+
+    <ImageView
+        android:layout_width="314dp"
+        android:layout_height="244dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/robo"
+
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textSize="43sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="@font/rubik_vinyl"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/first_nicher_design"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="What's Your Name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:fontFamily="@font/open_sans"
+            android:textColor="#000000"
+
+            />
+
+        <EditText
+            android:id="@+id/edName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:hint="Your Name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:fontFamily="@font/open_sans"
+
+            />
+
+        <TextView
+            android:id="@+id/nextButtonText"
+            android:layout_width="120dp"
+            android:layout_height="55dp"
+            android:background="@drawable/next_button"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="230dp"
+            android:text="Next-->"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="@font/teko"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
